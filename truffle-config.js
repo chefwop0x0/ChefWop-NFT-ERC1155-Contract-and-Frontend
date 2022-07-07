@@ -66,7 +66,7 @@ module.exports = {
          infuraUrl
        ),
        network_id: 4,
-       skipDryRun: true
+       skipDryRun: false
      },
      bsc_testnet: {
       provider: () => new HDWalletProvider(mnemonic, `https://data-seed-prebsc-1-s1.binance.org:8545`),

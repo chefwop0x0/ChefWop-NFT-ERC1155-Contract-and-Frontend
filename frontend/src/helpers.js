@@ -10,7 +10,7 @@ export async function connect() {
         const { chainId } = await ethersProvider.getNetwork()
         const signer = ethersProvider.getSigner();
         let nftCollection = new ethers.Contract(
-          '0xf78e737Af8166A9641aF0C45668b61403f480E00',//RankitNft.networks['80001'].address,
+          '0x8190f5e070AEcb4387eB07a48f74B3dab135c4B3',//RankitNft.networks['80001'].address,
           ChefWopNFT.abi,
           signer//ethersProvider
         )
