@@ -76,18 +76,6 @@ function App() {
   }
 
   async function mint(val, address, nftCollection, isMint) {
-    /*
-    const ethersProvider = new ethers.providers.Web3Provider(window.ethereum); //new ethers.providers.JsonRpcProvider(rpc);
-    const { chainId } = await ethersProvider.getNetwork()
-    const signer = ethersProvider.getSigner();
-    let nftCollection = new ethers.Contract(
-      '0x71e9204405C17d726b3A3AbE56aA4fFC26F66375',//RankitNft.networks['80001'].address,
-      RankitNft.abi,
-      signer//ethersProvider
-    )*/
-    //alert(val);
-    //alert(address);
-    //return false;
 
     const rval = parseInt(moment().unix());
     const message = web3.utils.soliditySha3({t:'uint256',v:1},{t:'uint256',v:val},{t:'uint256',v:rval}).toString('hex');

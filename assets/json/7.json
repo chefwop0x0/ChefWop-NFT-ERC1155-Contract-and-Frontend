@@ -1,0 +1,32 @@
+{
+    "name" : "White ChefWop",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+    "image" : "https://nodeapi.rankit.it/static/nft/assets/7.png",
+    "attributes": [
+        {
+            "trait_type": "Coding",
+            "value": 3,
+            "max_value": 5
+        },
+        {
+            "trait_type": "Project Management",
+            "value": 2,
+            "max_value": 5
+        },
+        {
+            "trait_type": "Soft Skills",
+            "value": 5,
+            "max_value": 5
+        },
+ 	{
+            "trait_type": "Testing",
+            "value": 1,
+            "max_value": 5
+        },
+ 	{
+            "trait_type": "Profitability",
+            "value": 4,
+            "max_value": 5
+        }
+    ]
+}
